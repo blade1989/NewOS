@@ -17,7 +17,7 @@
 
 <style>
 html, body {
-    background: #EEEEEE;
+    background: none repeat scroll 0 0 #EEEEEE;
     margin: 0px;
     padding: 0px;
     font-size: 100%;
@@ -40,11 +40,23 @@ article, aside, bdi, details, dialog, img figcaption, figure, footer, header, ma
     transition: all 200ms ease;
 }
 
-h2 {
-    font-size: 190%;
-    margin-top: 0;
-    border-bottom: 0px;
+div#bodywrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
+
+#bodywrapper #content {
+    margin: 100px auto;
+    padding: 20px;
+    width: 75%;
+}
+
+article {
+    padding: 20px;
+}
+
 
 </style>
 
