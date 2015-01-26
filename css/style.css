@@ -87,6 +87,12 @@ article {
     padding: 20px;
 }
 
+section {
+    border-left: 1px solid #454545;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
 h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #454545;
     padding: 10px 0px;
