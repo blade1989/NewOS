@@ -60,42 +60,21 @@ ul#menu {
     height: 45px;
     list-style-type: none;
     margin: 0;
-    padding: 5px 13px;
-}
-
-ul#menu li {
-    display: inline-flex;
+    padding: 0;
 }
 
 ul#menu li#menus {
-    margin: 5px 3px;
-    padding: 0;
-}
-
-li#slogo {
-    float: right;
-    font-size: 10px;
-    margin: -5px 0 0;
-    padding: 0;
-    width: 55%;
-}
-
-#slogo #site-description {
-    float: right;
-    margin: 20px 10px 0 -250px;
-    padding: 0;
-}
-
-#slogo h1 {
     margin: 0;
-    padding: 2px 3px;
-}
-
-li#about {
-    float: right;
-    margin: 5px -450px 20px 20px;
     padding: 0;
 }
+
+ul#menu li {
+    display: inline;
+    margin: 0 0 0 40%;
+    text-align: center;
+    width: 45px;
+}
+
 
 #bodywrapper #content {
     margin: 0px auto;
