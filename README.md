@@ -1,6 +1,8 @@
 # NewOS
 Seeking for a new os? you've come to the right place! 
 
+> "Welcome to NewOS! For those that don't know it yet: NewOS is a site dedicated to helping you choose your new **O**peratings **S**ystem. All operating systems here are Linux based. What is [Linux](https://en.wikipedia.org/wiki/Linux_kernel)? Linux is a kernel, which is the piece of software that lies between the hardware and the applications(Firefox, LibreOffice). Now, Linux is free, but still has a licensing on it([GPL v2](https://en.wikipedia.org/wiki/GPL_v2#Version_2))"
+
 ---
 
 ##server
