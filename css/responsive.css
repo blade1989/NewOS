@@ -14,7 +14,9 @@ smaller than 1920
 **************************************************************************************/
 @media only screen and (max-width: 1920px) {
 
-
+	#menu {
+		background: #EEEEEE;
+	}
 
 
 }
@@ -23,7 +25,9 @@ smaller than 1366x768
 **************************************************************************************/
 @media only screen and (max-width: 1366px) {
 
-
+	#menu {
+		background: #EEEEEE;
+	}
 
 
 }
@@ -34,7 +38,9 @@ smaller than 1280px
 
 @media only screen and (max-width: 1280px) {
 
-
+	#menu {
+		background: #EEEEEE;
+	}
 
 }
 
