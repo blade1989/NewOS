@@ -138,36 +138,39 @@ p {
     Maybe later on using `data-title`
 
 */
-	article [title] {
-		display: inline;
-		position: relative;
-	}
+article [title] {
+	display: inline;
+	position: relative;
+}
         
-	article [title]:hover:after {
-		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
-		border-radius: 5px;
-		bottom: 26px;
-		color: #fff;
-		content: attr(title);
-		left: 20%;
-		padding: 5px 15px;
-		position: absolute;
-		text-overflow: clip;
-		white-space: pre;
-		word-wrap: break-word;
-		z-index: 99;
-	}
+article [title]:hover:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    max-width: 450px;
+    min-width: 250px;
+    padding: 5px 15px;
+    position: absolute;
+    text-overflow: clip;
+    white-space: normal;
+    width: auto;
+    word-wrap: break-word;
+    z-index: 99;
+}
         
-	article [title]:hover:before {
-		border: solid;
-		border-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0);
-		border-width: 6px 6px 0 6px;
-		bottom: 20px;
-		content: "";
-		left: 50%;
-		position: absolute;
-		z-index: 99;
-	}
+article [title]:hover:before {
+	border: solid;
+	border-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0);
+	border-width: 6px 6px 0 6px;
+	bottom: 20px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}
 
 a:link, a:visited {
     color: #FFFFFF;
