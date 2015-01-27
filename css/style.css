@@ -367,3 +367,7 @@ footer p {
     margin: 0px;
     padding: 0px;
 }
+
+footer p small time {
+    display: inline;
+}
