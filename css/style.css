@@ -144,11 +144,6 @@ article [data-title] {
 	position: relative;
 }
 
-/*[data-title]:hover:after {
-    max-width: 500px;
-    min-width: 250px;
-}*/
-
 article [data-title]:hover:after {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
     border-radius: 5px;
