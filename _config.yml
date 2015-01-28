@@ -3,4 +3,4 @@ github: https://github.com/blade1989/NewOS
 
 safe: true
 lsi: false
-source: /
+source: /var/www/newos
