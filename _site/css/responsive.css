@@ -35,10 +35,6 @@ smaller than 1280px
 
 @media only screen and (max-width: 1280px) {
 
-	#menu {
-		background: #EEEEEE;
-	}
-
 }
 
 /************************************************************************************
@@ -86,6 +82,10 @@ smaller than 800
 
 	}
 	 
+	 section {
+	 	margin: 0px 10px;
+	 	padding: 0px 10px;
+	 }
 
 }
 
@@ -130,6 +130,16 @@ smaller than 800
 	    width: 100%;
 	}
 
+	section {
+	    margin: 0;
+	    padding: 0;
+	}
+
+	section h2, section h3, section h4, section h5, section h6 {
+	    padding: 20px;
+	    margin: 20px;
+	}
+
 
 }
 
@@ -140,7 +150,11 @@ smaller than 800
 
 @media screen and (max-width: 320px) {
 
-
+	section h2, section h3, section h4, section h5, section h6 {
+	    margin: 0;
+	    padding: 10px 0;
+	    text-align: center;
+	}
 
 
 }

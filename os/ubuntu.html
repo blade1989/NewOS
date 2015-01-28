@@ -37,6 +37,18 @@
 
 </style>
 
+<script>
+$(document).ready(function() {
+    $(".detailed").hide();
+    $(".simple_detailed").show();
+
+    $('.simple_detailed').click(function() {
+        $(".detailed").slideToggle();
+    });
+
+});
+</script>
+
 </head>
 <body>
     
@@ -48,12 +60,12 @@
       </li>
 
       <li id="slogo">
-        <a href="/NewOS/" data-title="Home" id="site-name">NewOS</a>
+        <a href="/../" data-title="Home" id="site-name">NewOS</a>
         <sup>(Alpha)</sup>
       </li>
 
       <li id="about">
-          <a href="/NewOS/about.html" data-title="About page">About</a>
+          <a href="/../about.html" data-title="About page">About</a>
       </li>
   </ul>
 
@@ -87,7 +99,9 @@
                 </li>
             </ul>
 
-            <p>
+            <button class="simple_detailed" data-title="Display detailed information about Ubuntu!">detailed</button>
+
+            <p id="intro">
                 Ubuntu is one of the most user friendly Debian based Linux distributions. It curently has a LTS version out, Ubuntu 14.04, codename Trusty Tahr. As of the older LTS 12.04(Precise Pangolin) both the server and desktop version will have support for 5 years. Meaning they will have security updates for 5 years. After 5 years it is wise to switch to the newer LTS release.
             </p>
 
@@ -117,7 +131,7 @@
                 What would a operating system be without a barrage of apps, you can use, and choose the other because everyone else is using that one.
             </p>
 
-            <section>
+            <section class="detailed">
   
                 <h3 id="internet" class="h3">Internet</h3>
 
@@ -161,8 +175,6 @@
                     </p>
 
                 </section>
-
-            </section>
 
             <section>
   
@@ -210,7 +222,8 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
-        </section>
+          </section>
+      </section>
 
             <h2 id="performance">Performance</h2>
 
@@ -280,58 +293,58 @@
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                     <li>
                         <a href="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" data-title="imgname">
                           <img src="http://i.imgur.com/Ha4nxDJ.png/native-viber-for-linux.png" alt="imgname">
-                        </a>Start screen
+                        </a>
                     </li>
                 </ul>
 
             <h2>Support</h2>
 
-        <section>
+        <section class="detailed">
 
         <h3 class="h3">Documentation</h3>
 
@@ -501,7 +514,7 @@
                     Updated:
                     
                     <a href="https://github.com/blade1989/NewOS/commit/gh-pages">
-                        <time datetime="2015-01-27">2015-01-27</time>
+                        <time datetime="2015-01-28">2015-01-28</time>
                     </a>
 
                 </small>
