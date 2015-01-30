@@ -377,7 +377,7 @@ footer {
     border-top: 1px solid #ffffff;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25);
     color: #ffffff;
-    height: 45px;
+    /*height: 45px;*/
     list-style-type: none;
     margin: 23% 0px 0px 0px;
     padding: 5px 13px;
@@ -389,6 +389,12 @@ footer p {
     margin: 0px;
     padding: 0px;
 }
+
+ footer small {
+      font-family: helvetica;
+      font-size: x-small;
+      text-shadow: none;
+ }
 
 footer p time {
     display: inline;
