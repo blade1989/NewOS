@@ -252,12 +252,15 @@ ul.tags {
 }
 
 .tags li {
-    display: inline-block;
+    border-right: 1px solid #cccccc;
+    display: inline;
     margin: 0;
-    padding: 0 10px;
+    padding: 2px;
 }
 
 .tags a {
+    margin: 0;
+    padding: 0 10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -279,13 +282,6 @@ ul.tags {
     background: none repeat scroll 0 0 #CCCCCC;
     border: 1px solid #EEEEEE;
     cursor: pointer;
-}
-
-.tags li {
-    border-left: 1px solid #cccccc;
-    display: inline-block;
-    margin: 2px 3px;
-    padding: 2px 10px;
 }
 
 blockquote {
