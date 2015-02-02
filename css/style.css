@@ -252,10 +252,9 @@ ul.tags {
 }
 
 .tags li {
-    border-right: 1px dotted #cccccc;
     display: inline-block;
-    margin: 0 0 0 -5px;
-    padding: 0 15px;
+    margin: 0;
+    padding: 0 10px;
 }
 
 .tags a {
@@ -265,9 +264,7 @@ ul.tags {
 
 .tags li:hover, .tags a:hover {
     background: none repeat scroll 0 0 #f9f9f9;
-    border: 1px solid #ffffff;
     color: #454545;
-    margin: 0;
     text-decoration: none;
 }
 
