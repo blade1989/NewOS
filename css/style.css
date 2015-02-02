@@ -75,6 +75,17 @@ ul#menu li {
     width: 45px;
 }
 
+.tags li.more {
+    border: 0 none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.tags li.more a {
+    border-left: 1px solid #cccccc;
+    border-right: 0 none;
+}
 
 #bodywrapper #content {
     margin: 0px auto;
