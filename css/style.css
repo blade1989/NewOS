@@ -252,20 +252,21 @@ ul.tags {
 }
 
 .tags li {
-    border-right: 1px solid #cccccc;
     display: inline;
     margin: 0;
     padding: 2px;
 }
 
 .tags a {
+    border-right: 1px solid #cccccc;
+    float: left;
     margin: 0;
     padding: 0 10px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.tags li:hover, .tags a:hover {
+.tags a:hover {
     background: none repeat scroll 0 0 #f9f9f9;
     color: #454545;
     text-decoration: none;
