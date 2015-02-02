@@ -245,9 +245,30 @@ img {
 }
 
 ul.tags {
-    border-bottom: 1px dotted #454545;
-    border-top: 1px dotted #454545;
+    border: 1px dotted #ffffff;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tags li {
+    border-right: 1px dotted #cccccc;
+    display: inline-block;
+    margin: 0 0 0 -5px;
+    padding: 0 15px;
+}
+
+.tags a {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tags li:hover, .tags a:hover {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #ffffff;
+    color: #454545;
+    margin: 0;
+    text-decoration: none;
 }
 
 .simple_detailed {
