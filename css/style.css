@@ -171,20 +171,17 @@ article [data-title]:hover:after {
     letter-spacing: 0;
     line-height: 22px;
     margin: 0;
-
     max-width: 500px;
-    min-width: 250px;
-
     padding: 5px 10px;
     position: absolute;
     text-align: left;
+    text-decoration: none;
     text-indent: 0;
     text-overflow: clip;
     vertical-align: baseline;
-    text-decoration: none;
-    white-space: normal;
+    white-space: nowrap;
     word-spacing: normal;
-    word-wrap: break-word;
+    word-wrap: normal;
     z-index: 99;
 }
         
