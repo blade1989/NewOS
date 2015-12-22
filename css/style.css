@@ -192,7 +192,7 @@ article [data-title]:hover:before {
 	border-width: 6px 6px 0 6px;
 	bottom: 24px; /* 20px */
 	content: "";
-	left: 50%;
+	left: 40%;
 	position: absolute;
 	z-index: 99;
 }
